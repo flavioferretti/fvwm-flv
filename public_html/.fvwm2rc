@@ -357,7 +357,7 @@ AddToFunc ChangeDefaultFocus I Style * $0
 +                            I Recapture
 
 ################## FvwmButtons button-bar ################################
-*FvwmButtonsGeometry 1088x110-290-0
+*FvwmButtonsGeometry 1088x100-290-0
 *FvwmButtonsRows 2
 *FvwmButtonsFore Black
 *FvwmButtonsBack Gray
@@ -395,7 +395,11 @@ AddToFunc ChangeDefaultFocus I Style * $0
 *FvwmButtons:(1x1 Back LightSteelBlue, Title Netsurf, Icon netsurf32.xpm, Action 'Exec "netsurf-gtk" netsurf-gtk http://localhost/ & ')
 *FvwmButtons:(1x1 Back LightSteelBlue, Title Firefox, Icon firefox32.png, Action 'Exec "firefox" firefox http://localhost/ &')
 *FvwmButtons:(1x1 Back LightSteelBlue, Title Chrome, Icon chrome.png, Action 'Exec "chrome" chrome http://localhost/ &')
-
+*FvwmButtons:(1x1 Back gray, Title Library, Icon xchm-48.png, Action 'Exec "xchm" xchm /home/flavio/Documents/OReilly_CHM/OReilly_Bookshelf.chm &')
+*FvwmButtons:(1x1 Back gray, Title Book, Icon bsd-book.png, Action(Mouse 1) \
+			'Exec "firefox" firefox /usr/local/share/doc/freebsd/it_IT.ISO8859-15/books/handbook/book.html &' , Action(Mouse 2) \
+			'Exec "okular" okular /usr/local/share/doc/freebsd/it_IT.ISO8859-15/books/handbook/book.pdf &')
+ 
 #*FvwmButtons:(1x1 Back LightCoral, Title Debian, Icon debian.png, Action 'Exec "xterm" xterm -bg Gray -fg black -fn 9x15bold -ls -e ssh 192.168.1.39 &')
 
 *FvwmButtons:(1x1 Back LightSteelBlue, Title Thunar, Icon Thunar.png, Action(Mouse 1) \
